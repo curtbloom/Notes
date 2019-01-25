@@ -1,0 +1,12 @@
+Failed to compile
+./src/components/Album.js
+  Line 10:  Parsing error: Unexpected token
+
+   8 | 
+   9 | 
+> 10 |       const album = albumData.find( album => {
+     |             ^
+  11 |         return album.slug === this.props.match.params.slug
+  12 |       });
+  13 | 
+This error occurred during the build time and cannot be dismissed.
